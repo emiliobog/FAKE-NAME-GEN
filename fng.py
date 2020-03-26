@@ -9,7 +9,17 @@ except:
   		os.system('pip2 install Faker')
   		os.system("pip2 install Dumper")
 faker = Faker()
-
+print '''
+proyect of BOG
+                                       
+ _|_|_|_|      _|_|_|          _|_|_|  
+ _|            _|    _|      _|        
+ _|_|_|        _|    _|      _|  _|_|  
+ _|            _|    _|      _|    _|  
+ _|            _|_|_|          _|_|_|  v 0.1
+                                       
+01000110  01000100  01000111 
+'''
 print faker.name()
 print faker.address()
 print faker.job()
